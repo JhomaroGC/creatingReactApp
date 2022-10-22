@@ -1,0 +1,18 @@
+[
+  {
+    "label": "Download",
+    "value": "Download"
+  },
+  {
+    "label": "Create a Copy",
+    "value": "Create a Copy"
+  },
+  {
+    "label": "Mark as Draft",
+    "value": "Mark as Draft"
+  },
+  {
+    "label": "Delete",
+    "value": "Delete"
+  }
+]

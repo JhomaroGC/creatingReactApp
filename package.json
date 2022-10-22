@@ -1,0 +1,12 @@
+{
+  "dependencies": {
+    "@chakra-ui/react": "^2.3.6",
+    "@emotion/react": "^11.10.4",
+    "@emotion/styled": "^11.10.4",
+    "bootstrap": "^5.2.2",
+    "framer-motion": "^7.6.1",
+    "icons": "^1.0.0",
+    "react-bootstrap": "^2.5.0",
+    "react-icons": "^4.6.0"
+  }
+}
