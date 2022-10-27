@@ -1,16 +1,28 @@
 import React from "react";
 import { Box } from "@chakra-ui/react";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 
-//Components
-import Feed from "./components/Feed";
-import Options from "./components/Options";
+//Import Layout
+import Feed from "./Layout/Feed";
+
+//Import Pages
+import ListaVentas from "./pages/ListaVentas";
+import EditarProductos from "./pages/EditarProductos";
+import ListaProductos  from "./pages/ListaProductos";
 
 function App() {
   return (
-    <Box width="100vm" minHeight={"100vh"} bg="gray.400">
-      <Feed />
-      <Options />
-    </Box>
+    <BrowserRouter>
+      <Routes>
+        <Route path = "/" element = {<Feed/>}>
+          <Route index element = {<ListaVentas/>}></Route>
+          <Route path="productos" element={<EditarProductos/>}></Route>
+          <Route path="listaproductos" element={<ListaProductos/>}></Route>
+          
+
+        </Route>
+      </Routes>
+    </BrowserRouter>
   );
 }
 

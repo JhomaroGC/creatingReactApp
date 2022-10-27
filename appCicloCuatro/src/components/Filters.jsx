@@ -15,10 +15,11 @@ import languages from "../data/languages.json";
 import optionFilters from "../data/optionFilters.json";
 
 const Filters = () => {
+  
   return (
     <Stack
       isInline
-      spacing={2}
+      spacing={5}
       borderWidth={1}
       bg="secondary"
       rounded="5px"
